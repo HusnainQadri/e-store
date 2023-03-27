@@ -58,7 +58,7 @@ const ProductDetail = () => {
               }`}
               onClick={() => handleColorChange("red")}
             >
-              <div className="color-option-inner red"></div>
+              <div class="w-8 h-8 rounded-full bg-red-500 mx-3"></div>
             </div>
             <div
               className={`color-option ${
@@ -66,7 +66,7 @@ const ProductDetail = () => {
               }`}
               onClick={() => handleColorChange("blue")}
             >
-              <div className="color-option-inner blue"></div>
+              <div class="w-8 h-8 rounded-full bg-blue-500 mx-3"></div>
             </div>
             <div
               className={`color-option ${
@@ -74,7 +74,8 @@ const ProductDetail = () => {
               }`}
               onClick={() => handleColorChange("green")}
             >
-              <div className="color-option-inner green"></div>
+              <div class="w-8 h-8 rounded-full bg-green-500 mx-3"></div>
+
             </div>
           </div>
         </div>

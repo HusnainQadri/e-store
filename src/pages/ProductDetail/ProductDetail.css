@@ -144,3 +144,32 @@
     color: #333;
   }
   
+
+  .w-8 {
+    width: 8px;
+  }
+  
+  .h-8 {
+    height: 8px;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .bg-red-500 {
+    background-color: #EF4444;
+  }
+
+  .bg-blue-500 {
+    background-color: #4da6ff;
+  }
+
+  .bg-green-500 {
+    background-color: green;
+  }
+  
+  .mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
