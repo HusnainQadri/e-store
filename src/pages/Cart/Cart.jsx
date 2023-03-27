@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { FaShoppingCart } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { removeFromCart,resetCart } from "../../redux/actions";
+import { Link } from "react-router-dom";
 
 export default function CartItem() {
   const cart = useSelector((state) => state.cart);
@@ -95,6 +96,11 @@ export default function CartItem() {
                       >
                         Checkout
                       </button>
+                      <Link to="/notImplemented">
+                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md text-base font-medium ml-4" >
+                        SignIn & Checkout
+                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>

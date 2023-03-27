@@ -30,6 +30,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/details/:id" element={<ProductDetail/>} />
+          <Route path="*" element={<h1 style={{
+            textAlign: 'center',
+            marginTop: '100px'
+          }}>404 Not Found</h1>} />
         </Routes>
       </Router>
     </React.Fragment>

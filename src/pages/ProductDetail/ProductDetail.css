@@ -166,8 +166,24 @@
   }
 
   .bg-green-500 {
-    background-color: green;
+    background-color: #b3ff66;
   }
+
+  .bg-green-500:focus {
+    border: 2px solid #b3ff66; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+
+  .bg-blue-500:focus {
+    border: 2px solid #4da6ff; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+  
+  .bg-red-500:focus {
+    border: 2px solid #EF4444; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+  
   
   .mx-3 {
     margin-left: 0.75rem;
