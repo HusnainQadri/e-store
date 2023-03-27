@@ -101,6 +101,11 @@ export default function CartItem() {
                         SignIn & Checkout
                       </button>
                       </Link>
+                      <Link to="/">
+                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md text-base font-medium ml-4" >
+                        Continue Shopping
+                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
