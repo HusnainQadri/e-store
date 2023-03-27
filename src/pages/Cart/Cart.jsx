@@ -91,18 +91,18 @@ export default function CartItem() {
                       <p className="text-gray-600">
                         Total Price: ${totalPrice.toFixed(2)}
                       </p>
-                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md text-base font-medium"
+                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-2 rounded-md text-sm font-medium"
                         onClick={handleReset}
                       >
                         Checkout
                       </button>
                       <Link to="/notImplemented">
-                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md text-base font-medium ml-4" >
+                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-2 rounded-md text-sm font-medium ml-1" >
                         SignIn & Checkout
                       </button>
                       </Link>
                       <Link to="/">
-                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded-md text-base font-medium ml-4" >
+                      <button className="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-2 rounded-md text-sm font-medium ml-1" >
                         Continue Shopping
                       </button>
                       </Link>
